@@ -323,7 +323,7 @@ router.post('/adminLogin', (req, res) => {
             res.status(401).send('Invalid username or password');
         }
     });
-});
+}); 
 
 // 导出路由对象
 module.exports = router;
